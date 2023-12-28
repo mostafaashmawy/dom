@@ -1,0 +1,48 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.captioncontent
+{
+    width: 80%;
+    bottom: 30px;
+    left: 10%;
+  text-align: center;
+background-color:#fff;
+padding: 10px;
+}
+.item
+{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.background
+{
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0, 0, 0, .60);
+ 
+}
+.backgrounditem
+{
+    width: 50%;
+    height: 450px;
+background-position: center center;
+transition: 0.5s all ease-in-out;
+}
+.exit
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.backgrounditem i
+{
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
